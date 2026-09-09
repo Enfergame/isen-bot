@@ -1,0 +1,6 @@
+services:
+  isen-api:
+    image: ghcr.io/aydev-fr/isen-api:latest
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
